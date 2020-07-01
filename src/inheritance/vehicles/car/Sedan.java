@@ -1,4 +1,4 @@
-package inheritance.vehicles;
+package inheritance.vehicles.car;
 
 public class Sedan extends Car{
 	

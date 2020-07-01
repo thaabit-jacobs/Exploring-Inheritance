@@ -1,4 +1,6 @@
-package inheritance.vehicles;
+package inheritance.vehicles.truck;
+
+import inheritance.vehicles.Vehicles;
 
 public class Truck extends Vehicles{
 	

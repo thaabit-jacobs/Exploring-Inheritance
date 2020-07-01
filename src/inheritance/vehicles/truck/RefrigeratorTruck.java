@@ -1,4 +1,4 @@
-package inheritance.vehicles;
+package inheritance.vehicles.truck;
 
 public class RefrigeratorTruck extends Truck{
 
