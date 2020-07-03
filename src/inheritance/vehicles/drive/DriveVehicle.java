@@ -3,6 +3,7 @@ package inheritance.vehicles.drive;
 import inheritance.vehicles.Vehicles;
 import inheritance.vehicles.car.Car;
 import inheritance.vehicles.car.SportsCar;
+import inheritance.vehicles.car.Turbo;
 import inheritance.vehicles.truck.Truck;
 
 public class DriveVehicle {
@@ -31,6 +32,8 @@ public class DriveVehicle {
 		
 		SportsCar sp1 = new SportsCar();
 		
+		Turbo sp4 = new SportsCar();
+		
 		System.out.println(dv.driveVehicle(v1));
 		System.out.println(dv.driveVehicle(c2));
 		System.out.println(dv.driveVehicle(sp2));
@@ -56,5 +59,6 @@ public class DriveVehicle {
 		System.out.println(dv.driveSportsCar((SportsCar)sp2));
 		System.out.println(dv.driveSportsCar((SportsCar)sp3));
 		System.out.println(dv.driveSportsCar(sp1));
+		System.out.println(dv.driveSportsCar((SportsCar)sp4));
 	}
 }
